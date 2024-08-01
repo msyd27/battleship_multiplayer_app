@@ -1,0 +1,316 @@
+.container {
+  display: flex;
+}
+
+.grid-user {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightseagreen;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.grid div {
+  width: 40px;
+  height: 40px;
+  border: solid 1px black;
+  box-sizing: border-box;
+}
+
+.grid-computer {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightseagreen;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.grid-display {
+  width: 800px;
+  height: 300px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  border: 2px solid gray;
+  justify-content: space-evenly;
+}
+
+.grid-computer .taken {
+  background-color: lightseagreen; /* Or any color that blends with the water/grid */
+}
+
+.ship1-container {
+  width: 80px;
+  height: 40px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+.ship1-container-vertical {
+  width: 40px;
+  height: 80px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship2-container {
+  width: 120px;
+  height: 40px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship2-container-vertical {
+  width: 40px;
+  height: 120px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship3-container {
+  width: 120px;
+  height: 40px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship3-container-vertical {
+  width: 40px;
+  height: 120px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship4-container {
+  width: 160px;
+  height: 40px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship4-container-vertical {
+  width: 40px;
+  height: 160px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+
+.ship5-container {
+  width: 200px;
+  height: 40px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship5-container-vertical {
+  width: 40px;
+  height: 200px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship div {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship1 {
+  background-color: blue;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship2 {
+  background-color: blue;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship3 {
+  background-color: blue;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship4 {
+  background-color: blue;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship5 {
+  background-color: blue;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.boom {
+  background-color: red;
+}
+
+.miss {
+   background-color: black;
+}
+
+.connected, .ready {
+  font-weight: normal;
+}
+
+.connected span,
+.ready span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: red;
+}
+
+span.green {
+  background: green;
+}
+
+#start {
+  background-color: green;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+#rotate {
+  background-color: orangered;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+#singlePlayerButton {
+  background-color: grey;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+#multiPlayerButton {
+  background-color: purple;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+
+#rotate,
+#start,
+#singlePlayerButton,
+#multiPlayerButton {
+  border: 2px solid black;
+  margin: 0 10px; 
+}
+
+h1 {
+  font-family: 'Arial', sans-serif; 
+  font-size: 36px; 
+  text-align: center; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  letter-spacing: 2px; 
+  color: #333; 
+  margin-top: 20px; 
+}
+
+/* Update just the buttons */
+.buttons button, .hidden-info button {
+  background-color: #007bff; /* Blue background for visibility */
+  color: white; /* White text for contrast */
+  padding: 15px 32px; /* Larger padding for a bigger button */
+  font-size: 16px; /* Slightly larger font size */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Cursor indicates clickable */
+  border-radius: 20px; /* Curved edges for a modern look */
+  margin: 4px 2px; /* Space around buttons */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.buttons button:hover, .hidden-info button:hover {
+  background-color: #0056b3; /* Darker blue on hover for interactivity */
+}
+
+#singlePlayerButton, #multiPlayerButton {
+  font-size: 20px; /* Increased font size for better visibility */
+  padding: 12px 24px; /* Increased padding for a larger button */
+  border-radius: 15px; /* Curved edges */
+  border: 2px solid #007bff; /* Blue border to match the original style */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  cursor: pointer; /* Cursor changes to pointer to indicate clickable */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#singlePlayerButton:hover, #multiPlayerButton:hover {
+  background-color: #0056b3; /* Darker blue on hover for interaction feedback */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Light grey background */
+}
+
+/* For the buttons to be side by side */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Spacing between buttons */
+}
+
+/* Larger and rounded buttons */
+#singlePlayerButton, #multiPlayerButton {
+  padding: 15px 30px;
+  border-radius: 15px; /* Curved edges */
+  font-size: 1em;
+}
+
+/* For the player status to be side by side */
+.status-container {
+  display: flex;
+  justify-content:space-between;
+  gap: 40px;
+  margin: 20px 0; /* Spacing above and below the status container */
+}
